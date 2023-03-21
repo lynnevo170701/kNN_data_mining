@@ -29,7 +29,7 @@ The dataset is orginially retrieved from National Institute of Diabetes and Dige
 The dataset is stored in a Github repo and cloned into local repo. It is in .csv file. To read this, we use `readr` package.
 
 ```{r message=FALSE}
-rawDF <- read_csv("https://raw.githubusercontent.com/HAN-M3DM-Data-Mining/data-mining-s2y2223-lynnevo170701/master/datasets/KNN-diabetes.csv")
+rawDF <- read_csv("https://raw.githubusercontent.com/lynnevo170701/kNN_data_mining/main/KNN-diabetes.csv")
 ```
 
 By using `str()` function, we can have first sense of data.
